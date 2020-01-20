@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background: linear-gradient(to left, violet, seagreen);
+}
+
+#quote-box{   
+    position: relative;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 30vh auto;
+    box-shadow: 3px 3px 5px 4px grey;
+    background: whitesmoke;   
+}
+
+#text{  
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  }
+
+#author{ 
+    position: absolute;  
+   right:10%;
+   bottom:15%;
+   font-size:18px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#tweet-quote{
+   position: absolute;
+   bottom: 10%;
+   margin: 0px 40px;
+}
+
+#new-quote{    
+padding: 15px;
+position: absolute;
+bottom: 10%;  
+left: 20%;
+outline: none;
+cursor: pointer;
+border: none;
+border-radius: 20px;
+}
+
+#new-quote:hover{
+    border:1px solid seagreen;
+}
+
+.footer{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    bottom: 10px;
+    right:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 800px){
+
+    #quote-box{   
+        position: relative;
+        width: 400px;
+        height: 150px;
+        border: 1px solid black;
+        margin: 30vh auto;
+        box-shadow: 3px 3px 5px 4px grey;
+        background: whitesmoke;   
+    }
+    
+    #text{  
+      text-align: center;
+      padding: 20px;
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      }
+    
+    #author{ 
+        position: absolute;  
+       right:10%;
+       bottom:15%;
+       font-size:12px;
+       font-family: 'Montserrat', sans-serif;
+    }
+    
+    #tweet-quote{
+       position: absolute;
+       bottom: 10%;
+       margin: 0px 40px;
+    }
+    
+    #new-quote{    
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;  
+    left: 30%;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    }
+    
+    #new-quote:hover{
+        border:1px solid seagreen;
+    }
+    
+    .footer{
+        position: absolute;
+        color: black;
+        font-size: 12px;
+        bottom: 10px;
+        right:10px;
+        font-family: 'Montserrat', sans-serif;
+    }   
+}
+
+@media only screen and (max-height: 500px){   
+#quote-box{   
+    position: relative;
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 30vh auto;
+    box-shadow: 3px 3px 5px 4px grey;
+    background: whitesmoke;   
+}
+
+#text{  
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  }
+
+#author{ 
+    position: absolute;  
+   right:10%;
+   bottom:15%;
+   font-size:12px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#tweet-quote{
+   position: absolute;
+   bottom: 10%;
+   margin: 0px 40px;
+}
+
+#new-quote{    
+padding: 10px;
+position: absolute;
+bottom: 10%;  
+left: 30%;
+outline: none;
+cursor: pointer;
+border: none;
+border-radius: 20px;
+}
+
+#new-quote:hover{
+    border:1px solid seagreen;
+}
+
+.footer{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    bottom: 10px;
+    right:10px;
+    font-family: 'Montserrat', sans-serif;
+} 
+}
